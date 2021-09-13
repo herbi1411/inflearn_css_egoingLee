@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      ul li{
+        color:red;
+      }
+      #lecture>li{ /*직계 관계만 적용*/
+        border:1px solid red;
+        color: blue; /*Color태그는 직계관계의 자식으로도 상속됨 (하위 선택자까지 모두 적용)*/
+      }
+      ul, ol{ /*쉼표(,)를 이용해 다수 태그 동시 적용*/
+        background-color: powderblue;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <ol id="lecture">
+      <li>HTML</li>
+      <li>CSS</li>
+      <ol>
+        <li>selector</li>
+        <li>declaration</li>
+      </ol>
+      <li>JavaScript</li>
+    </ol>
+  </body>
+</html>
