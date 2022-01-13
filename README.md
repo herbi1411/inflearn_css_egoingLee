@@ -22,3 +22,7 @@ ___
 *    :active - 마우스를 클릭했을 때  
 (Ex: a:visied{})
 
+___
+### 상속
+* border는 상속되지 않음
+* vscode 여러줄 주석: ctrl + k and ctrl + c
