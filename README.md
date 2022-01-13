@@ -60,3 +60,14 @@ ___
 ### 정렬: text-align
 *[링크](https://www.lipsum.com/) : 의미없는 TEXT를 만들어 줌
 * text-align의 justify 속성을 통해 텍스트의 좌우여백을 공평하게 만들 수 있음
+
+
+___
+### 타이포그래피: font
+* [오픈튜토리얼즈 링크](https://opentutorials.org/module/2367/13361)
+* font-family라는 속성으로 사용할 font를 지정함
+* font는 한번에 여러개를 지정할 수 있음(사용자의 컴퓨터에 해당 폰트가 없을 수 있기 때문에)
+* Serif는 영문자에 장식이 있다는 뜻
+* font-weight: 폰트의 두께
+* line-height: 자간
+* font 속성에 (font-style font-variant font-weight font-size/line-height )
