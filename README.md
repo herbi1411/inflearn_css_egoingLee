@@ -55,3 +55,8 @@ ___
 * 색상을 나타나는데는 크게 RGB방식, Hexadecimal(16진수) 방식이 있음 (+ 색상이름으로 표시)
 * [링크](https://www.w3schools.com/css/css_colors.asp)에서 다양한 color를 볼 수 있음
 * Hexadecial 6자리중에 각 2자리는 각각 R,G,B에 대응함. (2개의 16진수 자리로 256을 표현)
+
+___
+### 정렬: text-align
+*[링크](https://www.lipsum.com/) : 의미없는 TEXT를 만들어 줌
+* text-align의 justify 속성을 통해 텍스트의 좌우여백을 공평하게 만들 수 있음
