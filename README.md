@@ -71,3 +71,12 @@ ___
 * font-weight: 폰트의 두께
 * line-height: 자간
 * font 속성에 (font-style font-variant font-weight font-size/line-height )
+
+___
+### 웹폰트
+* 사용자가 가지고있지 않은 폰트가 깨지는 현상을 해결하는 기술
+* 사용자가 폰트를 가지고 있지 않으면 웹상에서 다운로드 받음(용량관리가 핵심문제)
+* [웹폰트 링크](https://fonts.google.com/)
+* 링크에서 사용할 폰트들을 선택하면 뜨는 링크에서 복사해서 link태그로 붙이고, 폰트를 사용하면 됨
+* 개발자도구에 Network탭에서 폰트를 다운로드 받는 것을 확인할 수 있음
+* webFont를 만들 수도 있음(font generator를 치면 나오는 다양한 사이트들 활용)
