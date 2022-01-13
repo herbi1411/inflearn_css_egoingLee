@@ -49,3 +49,9 @@ ___
 * 사용자가 창의 글꼴을 키웠을 때 px는 바뀌지 않지만, rem은 바뀜
 * 개발자도구에서 styles 창 옆에 computed탭을 선택하면 현재 태그에 적용된 CSS속성을 볼 수 있음
 * em은 상위 컴포넌트의 픽셀값, rem은 최상위 컴포넌트(html 속성)의 픽셀값
+
+___
+### 타이포그래피 : color
+* 색상을 나타나는데는 크게 RGB방식, Hexadecimal(16진수) 방식이 있음 (+ 색상이름으로 표시)
+* [링크](https://www.w3schools.com/css/css_colors.asp)에서 다양한 color를 볼 수 있음
+* Hexadecial 6자리중에 각 2자리는 각각 R,G,B에 대응함. (2개의 16진수 자리로 256을 표현)
