@@ -119,3 +119,8 @@ ___
 * offset속성(ex: left)변경을 통해 element의 위치를 이동할 수 있다.
 * left가 right보다 우선하고, top이 bottom보다 우선함.
 * position 속성을 relative로 설정해야 원하는대로 이동 가능.(기본 설정은 static)
+
+___
+### 포지션2: absolute
+* absolute속성을 이용해 position 속성이 static이 아닌 첫 상위 컴포넌트로부터 위치를 지정할 수 있음.
+* absolute 속성을 적용하면, 부모로 부터 독립되기 때문에, 크기가 본인의 content만큼으로 작아짐
