@@ -113,3 +113,9 @@ ___
 ___
 ### 마진겹침3
 * border가 없는 경우, margin-top 과 margin-bottom의 요소중 큰 값이 두 곳 모두에게 적용된다.
+
+___
+### 포지션1: relative VS static
+* offset속성(ex: left)변경을 통해 element의 위치를 이동할 수 있다.
+* left가 right보다 우선하고, top이 bottom보다 우선함.
+* position 속성을 relative로 설정해야 원하는대로 이동 가능.(기본 설정은 static)
