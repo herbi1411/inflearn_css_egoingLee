@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .container{
+            background-color: powderblue;
+            display:flex;
+            height: 200px;  
+            flex-direction: row; /*flex-direnction의 default값: row*/
+        }
+        .item{
+            background-color: tomato;
+            color:white;
+            border: 1px solid white;
+            flex-grow : 0;
+             /*item이 container에 가득차게*/
+        }
+        .item:nth-child(2){ /*id가 item인 child중에 2번째 것*/
+            /* flex-basis: 200px; */
+            /*flex의 기본 크기*/
+            /* flex-grow:2;  */
+            /*우선순위를 더 높게 함*/
+            flex-basis: 300px;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+</body>
+</html>

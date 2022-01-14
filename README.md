@@ -143,3 +143,10 @@ ___
 ### flex 2: basic
 * flex를 쓰려면 부모의 속성에서 display:flex를 해야함
 * 이후 부모 속성에서 flex-direction 속성을 통해 item의 방향을 조정할 수 있음 (column, column-reverse, row, row-reverse)
+
+___
+### flex 3: grow & shrink
+* flex-basis를 통해 기본 flex크기를 설정할 수 있음
+* flex-grow를 통해 1로 설정하면 container에 아이템을 가득 채울 수 있음(default 값은 0)
+* flex-grow를 1 이상의 수로해서 우선순위를 높이면 그 숫자만큼 화면이 더 가득참
+* flex-shrink 속성을 통해 브라우저 창의 크기를 줄였을 때 요소가 줄어들 값을 설정할 수 있음(default: 1)(0으로 설정하면 줄어들지 않음)(1이상의 수로 하면 그 배수만큼 다른 요소보다 빨리 줄어듦)
