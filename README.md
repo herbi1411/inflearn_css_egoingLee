@@ -101,3 +101,7 @@ ___
 * 그러다보니 width속성을 똑같이 해도 전체 사이즈가 다른 경우 발생
 * 이를 해결하기위해 box-sizing속성이 나옴
 * box-sizing:border-box를 통해 border영역에 맞춰서 영역의 넓이를 같게 할 수 있음
+
+___
+### 마진겹침1(margin-collapsing)
+* margin이 있는 2개의 요소가 만났을 때, margin이 큰 요소의 margin값으로 이 요소들이 겹친다.
