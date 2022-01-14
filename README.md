@@ -124,3 +124,8 @@ ___
 ### 포지션2: absolute
 * absolute속성을 이용해 position 속성이 static이 아닌 첫 상위 컴포넌트로부터 위치를 지정할 수 있음.
 * absolute 속성을 적용하면, 부모로 부터 독립되기 때문에, 크기가 본인의 content만큼으로 작아짐
+
+___
+### 포지션3: fixed
+* fixed 속성은 화면에 해당 요소가 고정됨(스크롤에 상관없이)
+* fixed도 absolute와 마찬가지로 부모 요소로부터 독립됨
