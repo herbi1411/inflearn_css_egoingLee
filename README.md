@@ -129,3 +129,12 @@ ___
 ### 포지션3: fixed
 * fixed 속성은 화면에 해당 요소가 고정됨(스크롤에 상관없이)
 * fixed도 absolute와 마찬가지로 부모 요소로부터 독립됨
+
+___
+### flex 소개
+* flex는 문서의 Layout을 잡는 속성 
+* 초기에는 Table이 사용됐지만 복잡하고, 구분이 잘 안돼는 문제가 있었음
+* 이후 POSITION(absolute, relative)등을 통해 표현함
+* 이후 FLEX를 통해 여러 속성으로 컴포넌트를 조작함
+* FLEX를 쓰려면 container역할을 하는 부모 속성이 필요함
+* container 속성과 item 속성이 구분 돼 있음
