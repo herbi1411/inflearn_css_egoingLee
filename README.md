@@ -156,3 +156,10 @@ ___
 * flex basic, shrink를 통한 실습
 * 페이지를 구역을 나눠서 표시하는 layout
 * 여러 효율적인 구조를 찾는 과정이 있었어서 마치 성배를 찾았다는 뜻에서 holy grail layout이라는 이름이 붙음
+
+
+___
+### flex 5 - 기타 속성들
+* wrap - nowrap (wrap 속성은 container의 크기보다 item들의 크기합이 더 크면 줄바꿈함)
+* Align-Items - JustifyContent - Align-Content
+
