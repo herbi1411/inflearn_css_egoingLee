@@ -150,3 +150,9 @@ ___
 * flex-grow를 통해 1로 설정하면 container에 아이템을 가득 채울 수 있음(default 값은 0)
 * flex-grow를 1 이상의 수로해서 우선순위를 높이면 그 숫자만큼 화면이 더 가득참
 * flex-shrink 속성을 통해 브라우저 창의 크기를 줄였을 때 요소가 줄어들 값을 설정할 수 있음(default: 1)(0으로 설정하면 줄어들지 않음)(1이상의 수로 하면 그 배수만큼 다른 요소보다 빨리 줄어듦)
+
+___
+### flex - holy grail layout
+* flex basic, shrink를 통한 실습
+* 페이지를 구역을 나눠서 표시하는 layout
+* 여러 효율적인 구조를 찾는 과정이 있었어서 마치 성배를 찾았다는 뜻에서 holy grail layout이라는 이름이 붙음
