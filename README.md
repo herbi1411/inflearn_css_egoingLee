@@ -85,3 +85,12 @@ ___
 ### 인라인 VS 블럭레벨
 * a태그는 inline, h1태그는 blocklevel 엘리먼트임(화면 전체를 다쓰는 태그가 block level)
 * display 속성으로 레벨을 변경할 수 있음
+
+
+___
+### 박스모델
+* border 속성을 통해 경계선의 속성을 설정할 수 있음
+* padding 속성을 통해 content와 border간 간격을 설정할 수 있음
+* margin 속성을 통해 block element간 간격을 설정할 수 있음
+* width 속성을 통해 content의 가로길이를 설정할 수 있음
+* inline componenet에는 width 속성은 적용되지 않음
