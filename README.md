@@ -94,3 +94,10 @@ ___
 * margin 속성을 통해 block element간 간격을 설정할 수 있음
 * width 속성을 통해 content의 가로길이를 설정할 수 있음
 * inline componenet에는 width 속성은 적용되지 않음
+
+___
+### box-sizing
+* css초창기에는 width속성이 border와 margin을 제외한 순수 컨텐츠 영역의 넓이였음
+* 그러다보니 width속성을 똑같이 해도 전체 사이즈가 다른 경우 발생
+* 이를 해결하기위해 box-sizing속성이 나옴
+* box-sizing:border-box를 통해 border영역에 맞춰서 영역의 넓이를 같게 할 수 있음
