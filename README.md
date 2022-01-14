@@ -94,7 +94,7 @@ ___
 * margin 속성을 통해 block element간 간격을 설정할 수 있음
 * width 속성을 통해 content의 가로길이를 설정할 수 있음
 * inline componenet에는 width 속성은 적용되지 않음
-
+    
 ___
 ### box-sizing
 * css초창기에는 width속성이 border와 margin을 제외한 순수 컨텐츠 영역의 넓이였음
@@ -105,3 +105,7 @@ ___
 ___
 ### 마진겹침1(margin-collapsing)
 * margin이 있는 2개의 요소가 만났을 때, margin이 큰 요소의 margin값으로 이 요소들이 겹친다.
+
+___
+### 마진겹침2
+* 부모-자식 요소간에는 border가 있으면 마진겹침이 일어나지 않고, border가 없으면 마진겹침이 발생한다.
