@@ -138,3 +138,8 @@ ___
 * 이후 FLEX를 통해 여러 속성으로 컴포넌트를 조작함
 * FLEX를 쓰려면 container역할을 하는 부모 속성이 필요함
 * container 속성과 item 속성이 구분 돼 있음
+
+___
+### flex 2: basic
+* flex를 쓰려면 부모의 속성에서 display:flex를 해야함
+* 이후 부모 속성에서 flex-direction 속성을 통해 item의 방향을 조정할 수 있음 (column, column-reverse, row, row-reverse)
