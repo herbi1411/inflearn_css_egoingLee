@@ -163,3 +163,7 @@ ___
 * wrap - nowrap (wrap 속성은 container의 크기보다 item들의 크기합이 더 크면 줄바꿈함)
 * Align-Items - JustifyContent - Align-Content
 
+___
+### mediaquery 1 - 기본
+* mediaquery: 특정 상태가 됐을 때만 css 속성을 적용할 수 있는 기능
+* style에서 \@media를 통해 적용 가능
