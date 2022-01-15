@@ -167,3 +167,7 @@ ___
 ### mediaquery 1 - 기본
 * mediaquery: 특정 상태가 됐을 때만 css 속성을 적용할 수 있는 기능
 * style에서 \@media를 통해 적용 가능
+
+___
+### mediaquery 2 - 응용
+* mediaquery를 통해 특정 layout에서 크기가 일정 범위에 들면 layout을 변경할 수 있도록 조절할 수 있음
