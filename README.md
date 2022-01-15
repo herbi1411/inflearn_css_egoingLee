@@ -192,3 +192,10 @@ ___
 * column-count를 통해 요소에서 가질 열의 개수를 지정할 수 있음
 * column의 수를 지정 안하고 폭만 지정하면 해당 폭 만큼 열 개수가 생김
 * column 수와 폭 둘다 지정하면 column-width가 보장 안될만큼 창이 작아지면 갯수가 줄어들지만, width가 무한정 늘어나도 column개수가 지정된 것 이상으로 많아지지는 않음
+
+___
+### background(배경)
+* background-image 설정을 통해 요소의 배경이미지를 선택할 수 있다.
+* 배경이미지에 transparent(투명)요소가 있으면 background-color와 중첩될 수 있다.
+* 배경이미지가 요소보다 작다면, 이미지가 반복된다.
+* 반복하지 않기 위해서는 background-repeat: no-repeat로 설정한다.
