@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .column{
+            text-align: justify; /*양쪽 맞추*/
+            /* column-count: 2; */
+            column-width: 200px;
+            /* column의 수를 지정 안하고 폭만 지정하면 해당 폭 만큼 열 개수가 생김*/
+            /*둘다 지정하면 column-width가 보장 안될만큼 창이 작아지면 갯수가 줄어들지만, width가 무한정 늘어나도 column개수가 지정된 것 이상으로 많아지지는 않음*/
+            column-gap: 20px;
+            /*column간 gap을 결정*/
+            column-rule-style: dashed;
+            /*column 간격선의 모양을 결정 */
+            column-rule-width: 5px;
+            /*column 간격선의 굵기를 결정 */
+            
+        }
+        h1{
+            column-span: all;
+            /*column에 구애받지 않고 이어짐*/
+        }   
+    </style>
+</head>
+<body>
+    <div class="column">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, non? Impedit nam nemo id unde est doloribus? Suscipit asperiores saepe iusto incidunt quia, fugit vel enim tempora alias praesentium vero.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, non? Impedit nam nemo id unde est doloribus? Suscipit asperiores saepe iusto incidunt quia, fugit vel enim tempora alias praesentium vero.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, non? Impedit nam nemo id unde est doloribus? Suscipit asperiores saepe iusto incidunt quia, fugit vel enim tempora alias praesentium vero.
+        <h1>title</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, non? Impedit nam nemo id unde est doloribus? Suscipit asperiores saepe iusto incidunt quia, fugit vel enim tempora alias praesentium vero.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, non? Impedit nam nemo id unde est doloribus? Suscipit asperiores saepe iusto incidunt quia, fugit vel enim tempora alias praesentium vero.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, non? Impedit nam nemo id unde est doloribus? Suscipit asperiores saepe iusto incidunt quia, fugit vel enim tempora alias praesentium vero.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, non? Impedit nam nemo id unde est doloribus? Suscipit asperiores saepe iusto incidunt quia, fugit vel enim tempora alias praesentium vero.    
+    </div>
+    </body>
+</html>
