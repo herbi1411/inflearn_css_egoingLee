@@ -214,3 +214,10 @@ ___
 ### transition 1: 기본
 * 요소의 속성을 특정 시간동안 점진적으로 변화시키는 것
 * 시간 속성을 다양하게 해서 부드럽게 전환시킬 수 있다.
+* transition-duration, transition-property
+___
+### transition 2: 심화
+* transition-delay 속성을 통해 transition을 일정시간 지연시킬 수 있음
+* 움직이는 속도를 변화시킬 수 있음
+* [transition delay 속도 변화 참고 사이트](https://matthewlein.com/tools/ceaser)
+* transition-delay, transition-timing-function

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{
+            background-color: black;
+            transition: all 1s;
+        }
+        div{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            width: 100px;
+            height: 50px;
+            transition: height 1000ms cubic-bezier(0.615, -0.600, 0.575, 1.340); /* custom */
+        }
+        div:hover{
+            height: 400px;
+        }
+    </style>
+</head>
+<body onload="document.querySelector('body').style.backgroundColor='white';"/> <!-- 화면 전환하는 JS코드 삽입 -->
+    <div>
+        TRANSITION
+    </div>
+</body>
+</html>
