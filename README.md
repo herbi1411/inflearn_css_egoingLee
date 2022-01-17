@@ -203,4 +203,9 @@ ___
 ___
 ### filter(필터)
 * 화면을 뿌옇게 하는 것과 같은 기능 (흑백, 블러 등등)
-* codepen 사이트를 통해 css 필터들을 볼 수 있음
+* [codepen 사이트](https://codepen.io/stacy/pen/VmpYRr)를 통해 css 필터들을 볼 수 있음
+
+___
+### transform 1: 소개
+* 화면의 요소들을 뒤집을 수 있음
+* [codepen 사이트](https://codepen.io/vineethtrv/pen/XKKEgM)를 통해 다양한 transform 속성을 볼 수 있음
