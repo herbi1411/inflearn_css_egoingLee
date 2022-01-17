@@ -199,3 +199,8 @@ ___
 * 배경이미지에 transparent(투명)요소가 있으면 background-color와 중첩될 수 있다.
 * 배경이미지가 요소보다 작다면, 이미지가 반복된다.
 * 반복하지 않기 위해서는 background-repeat: no-repeat로 설정한다.
+
+___
+### filter(필터)
+* 화면을 뿌옇게 하는 것과 같은 기능 (흑백, 블러 등등)
+* codepen 사이트를 통해 css 필터들을 볼 수 있음
