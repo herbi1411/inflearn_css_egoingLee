@@ -221,3 +221,8 @@ ___
 * 움직이는 속도를 변화시킬 수 있음
 * [transition delay 속도 변화 참고 사이트](https://matthewlein.com/tools/ceaser)
 * transition-delay, transition-timing-function
+
+___
+### link
+* Link를 통해 중복되는 style요소를 하나로 만들 수 있음
+* link 태그를 사용하거나 style태그 안에 \@import (링크)를 통해 파일을 연결할 수 있음
