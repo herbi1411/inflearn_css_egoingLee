@@ -209,3 +209,8 @@ ___
 ### transform 1: 소개
 * 화면의 요소들을 뒤집을 수 있음
 * [codepen 사이트](https://codepen.io/vineethtrv/pen/XKKEgM)를 통해 다양한 transform 속성을 볼 수 있음
+
+___
+### transition 1: 기본
+* 요소의 속성을 특정 시간동안 점진적으로 변화시키는 것
+* 시간 속성을 다양하게 해서 부드럽게 전환시킬 수 있다.

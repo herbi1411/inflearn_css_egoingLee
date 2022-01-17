@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        a{
+            font-size: 3rem;
+            display: inline-block;
+        }
+        a:active{
+            transform: translate(20px, 20px); /*클릭했을 때 링크를 크기만큼 이동*/
+            transition-property: all; /*모든 효과의 변화에 대해 전환이 일어남*/
+            transition-duration: 0.1s; /*장면전환이 해당 시간만큼 일어남*/
+            /* transition: all 0.1s; */
+            transition: font-size 1s, transform 0.1s;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">Click</a>
+</body>
+</html>
