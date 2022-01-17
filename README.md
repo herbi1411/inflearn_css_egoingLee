@@ -226,3 +226,11 @@ ___
 ### link
 * Link를 통해 중복되는 style요소를 하나로 만들 수 있음
 * link 태그를 사용하거나 style태그 안에 \@import (링크)를 통해 파일을 연결할 수 있음
+
+
+___
+### minify(코드경량화)
+* 큰 규모의 프로젝트때문에 코드의 크기를 줄여야한다면 코드를 minify할 수 있음 (프로그램, 확장기능 등을 통해)
+* minify된 파일은 .min이 파일 확장자명 앞에 붙어있음(ex. sample.min.css)
+* npm을 통해 cleancss 모듈을 설치 후 파일을 minify할 수 있음
+* [cleancss 사이트](http://adamburgess.github.io/clean-css-online/)
