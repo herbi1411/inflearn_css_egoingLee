@@ -234,3 +234,10 @@ ___
 * minify된 파일은 .min이 파일 확장자명 앞에 붙어있음(ex. sample.min.css)
 * npm을 통해 cleancss 모듈을 설치 후 파일을 minify할 수 있음
 * [cleancss 사이트](http://adamburgess.github.io/clean-css-online/)
+
+___
+### preprocesser
+* CSS와 HTML은 광범위하게 쓰이는 언어이므로, 표준을 바꾸기가 쉽지 않음
+* 그래서 시대가 변해도 언어의 틀을 크게 바꾸기가 쉽지 않고, 이에따라 사용자들이 더 쉽게 CSS를 작성하고자 하는 욕구가 생김
+* preprocesser는 이렇게 지원 툴마다 새로운 문법으로 CSS를 작성하면 사용가능한 CSS문법으로 자동으로 변환(컴파일)해줌 (즉 문법 + 컴파일러로 구성)
+* [활용 사이트(preprocessor)](https://stylus-lang.com/)
